@@ -1,13 +1,13 @@
 num1 = input("Enter first number: ")
 num2 = input("Enter second number: ")
-# Num1 = int(num1)
-# Num2 = int(num2)
+Num1 = int(num1)
+Num2 = int(num2)
 if num1 > num2:
-    print(num1 + " is Greater Than " + num2)
+    print(str(Num1) + " is less than " + str(num2))
 elif num1 < num2:
-    print(num1 + " is Less Than " + num2)
+    print(f"{Num1} is greater than {Num2}")
 elif num1 == num2:
-    print(num1 + " is equal to " + num2)
+    print(str(Num1) + " is equal to " + str(Num2))
 else:
     print("Error!")
 
